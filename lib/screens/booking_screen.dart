@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'confirmation_screen.dart';
 
 class BookingScreen extends StatefulWidget {
   const BookingScreen({super.key});
@@ -119,12 +120,8 @@ class _BookingScreenState extends State<BookingScreen> {
                 height: 55,
                 child: ElevatedButton(
                   onPressed: () {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text(
-                            'Appointment submission coming soon'),
-                      ),
-                    );
+                    ConfirmationScreen();
+
                   },
                   child: const Text(
                     'SUBMIT REQUEST',
