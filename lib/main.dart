@@ -11,7 +11,7 @@ class BookBrunoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Book Bruno',
+      title: 'Bruno Tech Support',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Arial',
@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 40),
 
                 const Text(
-                  "BOOK BRUNO",
+                  "Bruno Tech Support",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 36,
